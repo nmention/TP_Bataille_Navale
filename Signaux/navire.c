@@ -61,6 +61,8 @@ main( int nb_arg , char * tab_arg[] )
   /*
    * Deroulement du jeu 
    */
+  kill(pid_amiral,SIGUSR1);
+
 
   /***********/
   /* A FAIRE */
